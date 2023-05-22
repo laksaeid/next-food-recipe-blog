@@ -6,7 +6,7 @@ interface Props {
 }
 const Layout = ({ children }: Props) => {
   return (
-    <div className="bg-yellow-300 flex flex-col h-screen ">
+    <div className="flex flex-col h-screen ">
       <div className="flex flex-col container mx-auto flex-1">
         <Header />
         {children}

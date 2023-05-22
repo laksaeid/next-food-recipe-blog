@@ -1,9 +1,7 @@
 const RecipeDetails = () => {
-    return ( 
-        <div>
-            Recipe details
-        </div>
-     );
-}
- 
+  return <div className="flex-1">
+    <p>Recipe details</p>
+  </div>;
+};
+
 export default RecipeDetails;
